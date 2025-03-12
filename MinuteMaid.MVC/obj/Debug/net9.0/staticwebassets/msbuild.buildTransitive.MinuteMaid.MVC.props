@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MinuteMaid.MVC.props" />
+</Project>

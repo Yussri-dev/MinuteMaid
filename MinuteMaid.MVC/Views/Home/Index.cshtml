@@ -1,0 +1,5 @@
+﻿@model List<Recipe>
+@foreach (var recipe in Model)
+{
+    <partial name="_RecipeCard" model="recipe" />
+}

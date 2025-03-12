@@ -1,0 +1,8 @@
+﻿@model Recipe
+<div class="card mb-3">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">Temps de préparation : @Model.CookingTimeInMinutes min</p>
+        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary">Voir la recette</a>
+    </div>
+</div>

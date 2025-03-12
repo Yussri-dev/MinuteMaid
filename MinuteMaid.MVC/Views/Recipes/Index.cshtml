@@ -1,0 +1,12 @@
+﻿@model List<Recipe>
+<table class="table table-striped">
+    <thead>
+        <tr><th>Gerecht</th><th>Tijd</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var recipe in Model)
+        {
+            <partial name="_RecipeRow" model="recipe" />
+        }
+    </tbody>
+</table>
